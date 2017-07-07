@@ -1,0 +1,40 @@
+{
+  "name": "hapi-auth",
+  "version": "0.1.0",
+  "description": "Hapi authentication and authorization practice",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install",
+    "dev": "npm install --save-dev",
+    "start": "node server.js",
+    "test": "npm run lint && npm run unittest && npm run functest",
+    "lint": "eslint '**/*.js'",
+    "unittest": "mocha test/lib/*",
+    "functest": "NODE_ENV=test mocha test/functional.test.js",
+    "coverage": "istanbul cover _mocha 'test/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markgreenwood/hapi-auth.git"
+  },
+  "author": "@markgreenwood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markgreenwood/hapi-auth/issues"
+  },
+  "homepage": "https://github.com/markgreenwood/hapi-auth#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.2",
+    "sinon": "^2.3.5"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "boom": "^5.1.0",
+    "config": "^1.26.1",
+    "hapi": "^16.3.0",
+    "ramda": "^0.24.1"
+  }
+}
