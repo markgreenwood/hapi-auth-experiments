@@ -1,5 +1,5 @@
 {
-  "name": "hapi-auth",
+  "name": "hapi-auth-experiments",
   "version": "0.1.0",
   "description": "Hapi authentication and authorization practice",
   "main": "index.js",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/markgreenwood/hapi-auth.git"
+    "url": "git+https://github.com/markgreenwood/hapi-auth-experiments.git"
   },
   "author": "@markgreenwood",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/markgreenwood/hapi-auth/issues"
+    "url": "https://github.com/markgreenwood/hapi-auth-experiments/issues"
   },
-  "homepage": "https://github.com/markgreenwood/hapi-auth#readme",
+  "homepage": "https://github.com/markgreenwood/hapi-auth-experiments#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.8.1",
